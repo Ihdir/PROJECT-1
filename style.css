@@ -164,6 +164,7 @@ video {
     text-transform: uppercase;
     position: relative;
     z-index: 10;
+    cursor:pointer;
 }
 
 .scroller::-webkit-scrollbar {
@@ -261,6 +262,7 @@ video {
     background-size: cover;
     background-position: center;
     transition: all ease-in-out 0.3s;
+    cursor:pointer;
 
 }
 
