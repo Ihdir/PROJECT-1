@@ -30,21 +30,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 nav {
-    height: 8.333vh; /* converted 90px to vh using the formula */
-    width: 100vh; /* converted 100% to vh, assuming you want it to be full viewport height */
+    height: 90px;
+    width: 100%;
     /* background-color: red; */
     display: flex;
     align-items: center;
-    padding: 0 5.208vw; /* converted 100px to vw using the formula */
+    padding: 0 100px;
     justify-content: flex-start;
-    gap: 1.823vw; /* converted 35px to vw using the formula */
+    gap: 35px;
     position: fixed;
     z-index: 99;
     cursor: pointer;
 }
 
 nav img {
-    height: 6.019vh; /* converted 65px to vh using the formula */
+    height: 65px;
 }
 
 nav h4 {
@@ -53,8 +53,8 @@ nav h4 {
 }
 
 .cursor {
-    height: 1.852vh; /* converted 20px to vh using the formula */
-    width: 1.042vw; /* converted 20px to vw using the formula */
+    height: 20px;
+    width: 20px;
     background-color: #95c11e;
     border-radius: 50%;
     position: fixed;
@@ -62,12 +62,12 @@ nav h4 {
 }
 
 .cursor-blur {
-    height: 27.778vh; /* converted 300px to vh using the formula */
-    width: 15.625vw; /* converted 300px to vw using the formula */
+    height: 300px;
+    width: 300px;
     background-color: #96c11e3b;
     border-radius: 50%;
     position: fixed;
-    filter: blur(2.604vw); /* converted 50px to vw using the formula */
+    filter: blur(50px);
     z-index: 9;
 }
 
@@ -97,10 +97,10 @@ video {
 }
 
 .arrow {
-    height: 16.667vh; /* converted 180px to vh using the formula */
-    width: 9.375vw; /* converted 180px to vw using the formula */
+    height: 180px;
+    width: 180px;
     background-color: transparent;
-    border: 0.156vw solid #95c11e; /* converted 3px to vw using the formula */
+    border: 3px solid #95c11e;
     position: absolute;
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@ video {
 }
 
 .arrow i {
-    font-size: 2.604vw; /* converted 50px to vw using the formula */
+    font-size: 50px;
     font-weight: 100;
 }
 
@@ -122,7 +122,7 @@ video {
 }
 
 .page1 h1 {
-    font-size: 5.208vw; /* converted 100px to vw using the formula */
+    font-size: 100px;
     font-weight: 900;
     position: relative;
 }
