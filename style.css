@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: #fff;
 
-    border-radius: 4.63vh; /* converted 50px to vh using the formula */
+    border-radius: 50px;
 }
 
 nav {
